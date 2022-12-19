@@ -4,7 +4,7 @@ self.addEventListener("fetch", (event) => {
     // console.log("event @sw.js:", event);
     // let req = event.request;
     // console.log("req:", req)
-    console.log("disabled chade")
+    console.log("disabled cache")
     const PORT = 5000
     console.log("redirect url:", "http://localhost:" + PORT)
     console.log("event.request.url:", event.request.url)
